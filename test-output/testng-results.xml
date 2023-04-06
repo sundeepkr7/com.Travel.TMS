@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="11" passed="5" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[--connect to DB--]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-31T10:41:20 IST" name="Suite" finished-at="2023-03-31T10:51:34 IST" duration-ms="614560">
+    <groups>
+    </groups>
+    <test started-at="2023-03-31T10:41:20 IST" name="Test" finished-at="2023-03-31T10:51:34 IST" duration-ms="614560">
+      <class name="com.TMS.testscript.TMS_TourPackageTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:41:19 IST" name="configBS" finished-at="2023-03-31T10:41:20 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--connect to DB--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:41:20 IST" name="configBC" finished-at="2023-03-31T10:41:31 IST" duration-ms="10990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:41:31 IST" name="configBM" finished-at="2023-03-31T10:41:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreatePackageTest()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:41:31 IST" name="CreatePackageTest" finished-at="2023-03-31T10:46:02 IST" duration-ms="271543" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+null
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.TMS.testscript.TMS_TourPackageTest.CreatePackageTest(TMS_TourPackageTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePackageTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:46:02 IST" name="configAM" finished-at="2023-03-31T10:46:02 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:46:02 IST" name="configBM" finished-at="2023-03-31T10:46:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="ManagePackageTest()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:46:02 IST" name="ManagePackageTest" finished-at="2023-03-31T10:50:51 IST" duration-ms="288349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagePackageTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:50:51 IST" name="configAM" finished-at="2023-03-31T10:50:51 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:50:51 IST" name="configAC" finished-at="2023-03-31T10:50:51 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.TMS.testscript.TMS_TourPackageTest@130c12b7]" started-at="2023-03-31T10:51:35 IST" name="configAS" finished-at="2023-03-31T10:51:35 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.TMS.testscript.TMS_TourPackageTest -->
+      <class name="com.TMS.testscript.TMS_ManageIssuesTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.TMS.testscript.TMS_ManageIssuesTest@2e6a8155]" started-at="2023-03-31T10:51:13 IST" name="configBC" finished-at="2023-03-31T10:51:17 IST" duration-ms="4645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.TMS.testscript.TMS_ManageIssuesTest@2e6a8155]" started-at="2023-03-31T10:51:17 IST" name="configBM" finished-at="2023-03-31T10:51:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createIssue()[pri:0, instance:com.TMS.testscript.TMS_ManageIssuesTest@2e6a8155]" started-at="2023-03-31T10:51:17 IST" name="createIssue" finished-at="2023-03-31T10:51:29 IST" duration-ms="12076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.TMS.testscript.TMS_ManageIssuesTest@2e6a8155]" started-at="2023-03-31T10:51:29 IST" name="configAM" finished-at="2023-03-31T10:51:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.TMS.testscript.TMS_ManageIssuesTest@2e6a8155]" started-at="2023-03-31T10:51:29 IST" name="configBM" finished-at="2023-03-31T10:51:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="manageIssue()[pri:0, instance:com.TMS.testscript.TMS_ManageIssuesTest@2e6a8155]" started-at="2023-03-31T10:51:29 IST" name="manageIssue" finished-at="2023-03-31T10:51:34 IST" duration-ms="4737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageIssue -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.TMS.testscript.TMS_ManageIssuesTest@2e6a8155]" started-at="2023-03-31T10:51:34 IST" name="configAM" finished-at="2023-03-31T10:51:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.TMS.testscript.TMS_ManageIssuesTest@2e6a8155]" started-at="2023-03-31T10:51:34 IST" name="configAC" finished-at="2023-03-31T10:51:34 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.TMS.testscript.TMS_ManageIssuesTest -->
+      <class name="com.TMS.testscript.TMS_ManageBookingTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.TMS.testscript.TMS_ManageBookingTest@51c668e3]" started-at="2023-03-31T10:50:51 IST" name="configBC" finished-at="2023-03-31T10:50:57 IST" duration-ms="5150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.TMS.testscript.TMS_ManageBookingTest@51c668e3]" started-at="2023-03-31T10:50:57 IST" name="configBM" finished-at="2023-03-31T10:50:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="ConfirmBookingTest()[pri:0, instance:com.TMS.testscript.TMS_ManageBookingTest@51c668e3]" started-at="2023-03-31T10:50:57 IST" name="ConfirmBookingTest" finished-at="2023-03-31T10:51:01 IST" duration-ms="4061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmBookingTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.TMS.testscript.TMS_ManageBookingTest@51c668e3]" started-at="2023-03-31T10:51:01 IST" name="configAM" finished-at="2023-03-31T10:51:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.TMS.testscript.TMS_ManageBookingTest@51c668e3]" started-at="2023-03-31T10:51:01 IST" name="configBM" finished-at="2023-03-31T10:51:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="PackageBookingTest()[pri:0, instance:com.TMS.testscript.TMS_ManageBookingTest@51c668e3]" started-at="2023-03-31T10:51:01 IST" name="PackageBookingTest" finished-at="2023-03-31T10:51:12 IST" duration-ms="11545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PackageBookingTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.TMS.testscript.TMS_ManageBookingTest@51c668e3]" started-at="2023-03-31T10:51:12 IST" name="configAM" finished-at="2023-03-31T10:51:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.TMS.testscript.TMS_ManageBookingTest@51c668e3]" started-at="2023-03-31T10:51:12 IST" name="configAC" finished-at="2023-03-31T10:51:13 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.TMS.testscript.TMS_ManageBookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

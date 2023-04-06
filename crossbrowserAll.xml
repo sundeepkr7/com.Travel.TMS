@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name = "com.TMS.GenericUtilities.ListenerImplementationClass"></listener>
+</listeners>
+  <test thread-count="5" name="Test1">
+  <parameter name = "BROWSER" value = "chrome"></parameter>
+    <classes>
+      <class name="com.TMS.testscript.BookPackageTest"/>
+      <class name="com.TMS.testscript.TMS_Testscript_01"/>
+      <class name="com.TMS.testscript.TMS_Testscript_02"/>
+      <class name="com.TMS.testscript.TMS_Testscript_03"/>
+      <class name="com.TMS.testscript.CreatePackageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+  <parameter name = "BROWSER" value = "firefox"></parameter>
+    <classes>
+      <class name="com.TMS.testscript.BookPackageTest"/>
+      <class name="com.TMS.testscript.TMS_Testscript_01"/>
+      <class name="com.TMS.testscript.TMS_Testscript_02"/>
+      <class name="com.TMS.testscript.TMS_Testscript_03"/>
+      <class name="com.TMS.testscript.CreatePackageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
